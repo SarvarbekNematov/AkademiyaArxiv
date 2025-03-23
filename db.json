@@ -1,0 +1,132 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "name": "The Art of War",
+      "description": "A classic book on strategy and tactics.",
+      "language": "English",
+      "author": "Sun Tzu",
+      "category_id": 1,
+      "section_id": 1,
+      "shelf_number": "A12",
+      "floor_number": 1,
+      "image_url": "https://via.placeholder.com/150",
+      "file_url": "https://example.com/book1.pdf",
+      "published_year": 500,
+      "publisher": "Ancient Texts"
+    },
+    {
+      "id": "2",
+      "name": "Atomic Habits",
+      "description": "A guide to building good habits and breaking bad ones.",
+      "language": "English",
+      "author": "James Clear",
+      "category_id": 2,
+      "section_id": 2,
+      "shelf_number": "B05",
+      "floor_number": 2,
+      "image_url": "https://via.placeholder.com/150",
+      "file_url": "https://example.com/book2.pdf",
+      "published_year": 2018,
+      "publisher": "Penguin Books"
+    },
+    {
+      "id": "44e7",
+      "name": "wad",
+      "desc": "dwada",
+      "author": "dawd",
+      "javonRaqami": "dwad",
+      "qavatRaqami": "1231",
+      "nashrYili": "3123",
+      "nashriyot": "dawdwa",
+      "section": "Qo'lyozmalar",
+      "category": "toshbosmalar",
+      "language": "Russian",
+      "url": ""
+    },
+    {
+      "id": "52b1",
+      "name": "dwaddwa",
+      "desc": "dawda",
+      "author": "daw",
+      "javonRaqami": "3123",
+      "qavatRaqami": "312321",
+      "nashrYili": "3441",
+      "nashriyot": "dwad",
+      "section": "Qo'lyozmalar",
+      "category": "yangiNashriyot",
+      "language": "English",
+      "url": ""
+    },
+    {
+      "id": "d987",
+      "name": "dwad",
+      "desc": "dawd",
+      "author": "dwad",
+      "javonRaqami": "dwdq21",
+      "qavatRaqami": "21331",
+      "nashrYili": "313",
+      "nashriyot": "wdada",
+      "section": "Qadimiy kitoblar",
+      "category": "qo'lyozmalar",
+      "language": "English",
+      "url": ""
+    },
+    {
+      "id": "1c70",
+      "name": "dwad",
+      "desc": "dawd",
+      "author": "dawd",
+      "javonRaqami": "12312",
+      "qavatRaqami": "2131",
+      "nashrYili": "3123",
+      "nashriyot": "dwadwa",
+      "section": "Yangi nashriyot",
+      "category": "qo'lyozmalar",
+      "language": "Russian",
+      "url": ""
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Philosophy"
+    },
+    {
+      "id": "2",
+      "name": "Self-Improvement"
+    },
+    {
+      "id": "3",
+      "name": "Science"
+    }
+  ],
+  "sections": [
+    {
+      "id": "1",
+      "name": "History"
+    },
+    {
+      "id": "2",
+      "name": "Psychology"
+    },
+    {
+      "id": "3",
+      "name": "Technology"
+    }
+  ],
+  "book_languages": [
+    {
+      "id": "1",
+      "name": "English"
+    },
+    {
+      "id": "2",
+      "name": "Russian"
+    },
+    {
+      "id": "3",
+      "name": "Uzbek"
+    }
+  ]
+}
