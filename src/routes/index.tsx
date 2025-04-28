@@ -2,11 +2,10 @@ import MainLayout from "@/layout"
 import Dawboard from "@/pages/dawboard"
 import { useRoutes } from "react-router-dom"
 import Toshbosmalar from "@/pages/section/toshbosmalar"
-import Qolyozmalar from "@/pages/section/qolyozmalar"
-import YangiNashriyot from "@/pages/section/yangiNashriyot"
-import QadimiyKitobla from "@/pages/section/qadimiyKitobla"
 import KitoblarCrt from "@/pages/create/kitoblarCrt"
 import Detail from "@/pages/detail"
+import EditKitoblar from "@/pages/edit"
+import CategoryCrt from "@/pages/create/categoryCrt"
 
 const Routers = () => {
   return (
@@ -21,22 +20,14 @@ const Routers = () => {
                         element : <Dawboard/>,
                         children : [
                             {
-                                path : '/toshbosmalar',
+                                path : '/category/:id',
                                 element : <Toshbosmalar/>
-                            },
-                            {
-                                path : '/qolyozmalar',
-                                element : <Qolyozmalar/>
-                            },
-                            {
-                                path : '/yangi-nashriyot',
-                                element : <YangiNashriyot/>
-                            },
-                            {
-                                path : '/qadimgi-kitoblar',
-                                element : <QadimiyKitobla/>
-                            },
+                            }
                         ]
+                    },
+                    {
+                        path: '/sozlamalar',
+                        element: <CategoryCrt/>
                     },
                     {
                         path: '/kitoblar-create',
@@ -45,6 +36,10 @@ const Routers = () => {
                     {
                         path: '/:id',
                         element: <Detail/>
+                    },
+                    {
+                        path: '/edit/:id',
+                        element: <EditKitoblar/>
                     }
                 ]
             }

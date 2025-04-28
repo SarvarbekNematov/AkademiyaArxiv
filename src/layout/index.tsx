@@ -7,7 +7,7 @@ const MainLayout = () => {
         <div>
             <Header/>
         </div>
-        <div className="bg-[#F0F0F0] px-[30px]">
+        <div className="bg-[#F0F0F0] py-[30px] px-[30px]">
             <Outlet/>
         </div>
     </div>

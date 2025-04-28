@@ -16,7 +16,7 @@ import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const KitoblarCrt = () => {
+const EditKitoblar = () => {
   const queryClient = useQueryClient()
   const navigation = useNavigate()
   const [formValues , setFormValues] = useState({
@@ -32,9 +32,6 @@ const KitoblarCrt = () => {
     sohasi: ''
   })
   const [fileUrl , setFileUrl] = useState('')
-
-  /// IMG and FILE
-
 
   const handleUpload = async (event: React.ChangeEvent<HTMLInputElement>) => {
     const selectedFile = event.target.files?.[0];
@@ -389,4 +386,4 @@ const KitoblarCrt = () => {
   );
 };
 
-export default KitoblarCrt;
+export default EditKitoblar;
